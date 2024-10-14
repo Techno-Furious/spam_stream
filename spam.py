@@ -7,7 +7,7 @@ def spam(number_of_submissions=10):
     form_url="https://docs.google.com/forms/d/e/1FAIpQLSdH94eFM9Hy9kV6t2lpVAPxjWpL1eb1XyP-cOiaaYTkGLZDoQ/formResponse"
 
 
-    age=["Less than 18 years"]
+    age=["18-25 years"]
     category=["Student","Patient seeking support","Patient seeking support","Caregiver or family member","Caregiver or family member","Healthcare professional"]
     medical_con=["Mental health issues","Mental health issues","Chronic illness","Physical disability","Addiction"]
     frequency=["Daily","Weekly","Monthly","Monthly","Monthly","Rarely"]
