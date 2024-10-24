@@ -36,7 +36,7 @@ age_groups = [
     "45 - 60 years",
     "60+ years"
 ]
-age_groups_weights = [0.15, 0.5, 0.25, 0.05, 0.05]
+age_groups_weights = [0.15, 0.5, 0.25, 0.095, 0.005]
 
 user_types = [
     "Business Owner/Decision Maker",
