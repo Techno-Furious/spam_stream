@@ -156,7 +156,6 @@ def spam(num):
 
     success=0
     for i in range(num):
-        time.sleep(0.1)
         actual_features_use = random.choices(features_use,weights=features_use_weights,k=2)
         
 
