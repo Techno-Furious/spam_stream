@@ -107,7 +107,7 @@ features_use = [
     "Security of shared files",
     "Ability to collaborate in real time"
 ]
-features_use_weights = [0.3, 0.3, 0.3, 0.1]
+features_use_weights = [0.4, 0.15, 0.35, 0.1]
 
 
 mobile_device = [
@@ -157,7 +157,7 @@ def spam(num):
     success=0
     for i in range(num):
         time.sleep(0.1)
-        actual_features_use = random.sample(features_use, 2)
+        actual_features_use = random.choices(features_use,weights=features_use_weights,k=2)
         
 
 
